@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+-->
+<root>
+    <set name="テスト">
+        <outFile path="src/main/resources/test.csv" encode="UTF8" lncode="CRLF" type="csv"
+            line="999">
+            <column name="コード１" byte_length="8" idx="true" idx_space="true" />
+            <column name="コード２" byte_length="2" random="true" type="数値" full="true" />
+            <column name="コード３" byte_length="2" random="true" type="ひらがな" full="true" />
+            <column name="コード４" byte_length="2" random="true" type="漢字" full="true" />
+            <column name="コード５" byte_length="2" random="true" type="英字" full="true" />
+        </outFile>
+    </set>
+</root>
