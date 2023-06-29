@@ -4,7 +4,7 @@
 -->
 <root>
     <set name="テスト">
-        <outFile path="src/main/resources/test.csv" encode="UTF8" lncode="CRLF" type="csv"
+        <outFile path="c:/tmp/test.csv" encode="UTF8" lncode="CRLF" type="csv"
             line="999">
             <column name="コード１" byte_length="8" idx="true" idx_space="true" />
             <column name="コード２" byte_length="2" random="true" type="数値" full="true" />
