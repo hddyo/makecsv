@@ -98,7 +98,7 @@ public class MakeCsv {
             }
             col.setIdx_space(Boolean.valueOf(e.getAttribute("idx_space")));
             col.setLsetlen(e.getAttribute("lsetlen"));
-            col.setRsetlen(e.getAttribute("restlen"));
+            col.setRsetlen(e.getAttribute("rsetlen"));
             return col;
           }).collect(Collectors.toList());
 
