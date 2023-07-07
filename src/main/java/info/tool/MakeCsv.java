@@ -38,6 +38,11 @@ public class MakeCsv {
 
   }
 
+  /**
+   * メイン
+   * @param args　xmlパス
+   * @throws Exception
+   */
   public static void main(String[] args) throws Exception {
     MakeCsv clazz = new MakeCsv(args[0], null);
     clazz.exexute();
