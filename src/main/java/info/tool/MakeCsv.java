@@ -15,7 +15,7 @@ import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 
 /**
-CSV作成ツール bug2
+CSV作成ツール dev4
 */
 public class MakeCsv {
 
