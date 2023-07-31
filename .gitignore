@@ -3,3 +3,6 @@ target/
 
 # Visual Studio Code
 .vscode
+
+# intelij
+.idea
