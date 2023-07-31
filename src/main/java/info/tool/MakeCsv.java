@@ -87,7 +87,7 @@ public class MakeCsv {
             ColumnBean col = new ColumnBean();
             col.setName(e.getAttribute("name"));
             col.setByte_length(Integer.valueOf(e.getAttribute("byte_length")));
-            col.setFull(Boolean.valueOf(e.getAttribute("full")));
+            col.setFull(Boolean.parseBoolean(e.getAttribute("full")));
             col.setRandom(Boolean.valueOf(e.getAttribute("random")));
             col.setType(e.getAttribute("type"));
             col.setIdx(Boolean.valueOf(e.getAttribute("idx")));
