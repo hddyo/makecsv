@@ -19,7 +19,7 @@ public class MakeCsv {
   /** ルートエレメント */
   private final Element root;
 
-  /** コンストラクタa */
+  /** コンストラクタaa */
   private MakeCsv(String xmlPath, String logPath) throws Exception {
 
     try {
